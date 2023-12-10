@@ -16,23 +16,23 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="title: windows环境下,redis的启动问题date: 2023-11-24 20:36:31tags: 原文链接:https:&#x2F;&#x2F;blog.csdn.net&#x2F;summer_style&#x2F;java&#x2F;article&#x2F;details&#x2F;106534996 windows环境中redis的配置文件Windows版的Redis有2个配置文件，一个是：redis.windows.conf，另一个是r">
+    <meta name="description" content="原文链接:https:&#x2F;&#x2F;blog.csdn.net&#x2F;summer_style&#x2F;java&#x2F;article&#x2F;details&#x2F;106534996 windows环境中redis的配置文件Windows版的Redis有2个配置文件，一个是：redis.windows.conf，另一个是redis.windows-service.conf。 由于安装版的Redis服务自启动，是直接通过redis-serv">
 <meta property="og:type" content="article">
-<meta property="og:title" content="aur0的博客">
-<meta property="og:url" content="http://example.com/2023/12/10/windows%E7%8E%AF%E5%A2%83%E4%B8%8B,redis%E7%9A%84%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:title" content="windows环境下,redis的启动问题">
+<meta property="og:url" content="http://example.com/2023/12/10/windows%E7%8E%AF%E5%A2%83%E4%B8%8B-redis%E7%9A%84%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="aur0的博客">
-<meta property="og:description" content="title: windows环境下,redis的启动问题date: 2023-11-24 20:36:31tags: 原文链接:https:&#x2F;&#x2F;blog.csdn.net&#x2F;summer_style&#x2F;java&#x2F;article&#x2F;details&#x2F;106534996 windows环境中redis的配置文件Windows版的Redis有2个配置文件，一个是：redis.windows.conf，另一个是r">
+<meta property="og:description" content="原文链接:https:&#x2F;&#x2F;blog.csdn.net&#x2F;summer_style&#x2F;java&#x2F;article&#x2F;details&#x2F;106534996 windows环境中redis的配置文件Windows版的Redis有2个配置文件，一个是：redis.windows.conf，另一个是redis.windows-service.conf。 由于安装版的Redis服务自启动，是直接通过redis-serv">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/redis%E5%B7%B2%E7%BB%8F%E5%90%AF%E5%8A%A8.png">
-<meta property="article:published_time" content="2023-12-10T12:32:28.682Z">
-<meta property="article:modified_time" content="2023-12-10T13:18:25.169Z">
+<meta property="article:published_time" content="2023-12-10T13:46:44.000Z">
+<meta property="article:modified_time" content="2023-12-10T13:47:15.819Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/img/redis%E5%B7%B2%E7%BB%8F%E5%90%AF%E5%8A%A8.png">
   
   
   
-  <title>aur0的博客</title>
+  <title>windows环境下,redis的启动问题 - aur0的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -198,7 +198,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text=""></span>
+            <span id="subtitle" data-typed-text="windows环境下,redis的启动问题"></span>
           
         </div>
 
@@ -209,7 +209,7 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-12-10 20:32" pubdate>
+        <time datetime="2023-12-10 21:46" pubdate>
           2023年12月10日 晚上
         </time>
       </span>
@@ -221,7 +221,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3.1k 字
+          3k 字
         
       </span>
     
@@ -277,13 +277,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header"></h1>
+            <h1 id="seo-header">windows环境下,redis的启动问题</h1>
             
             
               <div class="markdown-body">
                 
-                <p>title: windows环境下,redis的启动问题<br>date: 2023-11-24 20:36:31<br>tags:</p>
-<h1 id="原文链接"><a href="#原文链接" class="headerlink" title="原文链接:"></a>原文链接:</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/summer_style/java/article/details/106534996">https://blog.csdn.net/summer_style/java/article/details/106534996</a></p>
+                <h1 id="原文链接"><a href="#原文链接" class="headerlink" title="原文链接:"></a>原文链接:</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/summer_style/java/article/details/106534996">https://blog.csdn.net/summer_style/java/article/details/106534996</a></p>
 <h1 id="windows环境中redis的配置文件"><a href="#windows环境中redis的配置文件" class="headerlink" title="windows环境中redis的配置文件"></a>windows环境中redis的配置文件</h1><p>Windows版的Redis有2个配置文件，一个是：redis.windows.conf，另一个是redis.windows-service.conf。</p>
 <p>由于安装版的Redis服务自启动，是<strong>直接通过</strong>redis-server.exe启动的，但是，启动时并没有加载Redis的配置文件（redis.windows.conf），导致redis 中bind配置和密码设置不生效。</p>
 <h2 id="Redis自启动导致的常见的问题有："><a href="#Redis自启动导致的常见的问题有：" class="headerlink" title="Redis自启动导致的常见的问题有："></a>Redis自启动导致的常见的问题有：</h2><h3 id="1、在CMD命令加载配置文件（redis-windows-conf）进行启动是不成功的。提示如下："><a href="#1、在CMD命令加载配置文件（redis-windows-conf）进行启动是不成功的。提示如下：" class="headerlink" title="1、在CMD命令加载配置文件（redis.windows.conf）进行启动是不成功的。提示如下："></a>1、在CMD命令加载配置文件（redis.windows.conf）进行启动是不成功的。提示如下：</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">D:\soft\Redis&gt;redis-server.exe redis.windows.conf  <br>[13760] 11 Jul 16:39:51.067 # Creating Server TCP listening socket 127.0.0.1:6379: bind: No error<br></code></pre></td></tr></table></figure>
@@ -320,6 +319,8 @@
 
 <p>通过密码进入访问，使用 auth + 密码，如下：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs shell">127.0.0.1:6379&gt; get name  <br>(error) NOAUTH Authentication required.  <br>127.0.0.1:6379&gt; auth 123456  <br>OK  <br>127.0.0.1:6379&gt; get name  <br>&quot;haha&quot;  <br>127.0.0.1:6379&gt;  <br></code></pre></td></tr></table></figure>
+
+
                 
               </div>
             
@@ -336,8 +337,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div></div>
-      <div>http://example.com/2023/12/10/windows环境下,redis的启动问题/</div>
+      <div>windows环境下,redis的启动问题</div>
+      <div>http://example.com/2023/12/10/windows环境下-redis的启动问题/</div>
     </div>
     <div class="license-meta">
       
